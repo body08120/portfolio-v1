@@ -170,19 +170,29 @@
   <!--END --COMPETENCES SECTION-->
 
   <!--CONTACT SECTION-->
-  <section></section>
+  <section>
+    <form action="" method="">
+      <h3>contactez-moi</h3>
+      <input type="text" name="name" placeholder="Votre nom" />
+      <input type="email" name="email" placeholder="Votre email" />
+      <input type="text" name="subject" placeholder="La raison de votre message" />
+      <input type="text" name="email" placeholder="Votre message" />
+
+      <input type="submit" value="Envoyer">
+    </form>
+  </section>
   <!--END CONTACT SECTION-->
 
   <!--FOOTER SECTION-->
-  <!-- <footer>
+  <footer>
     <span>Portfolio 2023</span>
     <br />
-    <span>© 2023 - RENOLLET Nataël</span> 
+    <span>© 2023 - RENOLLET Nataël</span>
     <br />
-    <span>Mentions Légales</span> -->
+    <span>Mentions Légales</span>
 
-  <?php // include('includes/socialicons.php'); ?>
-  <!-- </footer>s -->
+    <?php include('includes/socialicons.php'); ?>
+  </footer>
   <!--END FOOTER SECTION-->
 </body>
 
