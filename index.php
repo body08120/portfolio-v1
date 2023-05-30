@@ -15,8 +15,8 @@
       theme: {
         extend: {
           colors: {
-            "primary": "#b8a28e",
-            "secondary": "#ffffff",
+            "text-color": "#B8A28E",
+            "title-color": "#76614F",
             "default": "#36422E"
           }
         }
@@ -57,36 +57,39 @@
         -moz-background-size: cover;
         -o-background-size: cover; */
       }
-
-      .h1-style{
-        color: #76614F;
-        font-size: 28px;
-        letter-spacing: 0.2em;
-        font-weight: 300;
-      }
     }
   </style>
 
 </head>
 
 <body>
-  <main class="text-primary">
+  <main class="text-text-color">
     <!--HEADER SECTION-->
-    <header class="bg-header px-10 pt-32 
-                   sm:pt-52 
-                   xl:pt-64">
+    <header class="bg-header px-10 pt-16 
+                   sm:pt-32
+                   lg:pt-24
+                   xl:pt-40">
 
       <div class="flex 
                   max-sm:flex-col-reverse
-                  lg:justify-around">
+                  lg:justify-between
+                  xl:justify-around">
 
         <div class="max-sm:text-center 
                     md:text-justify md:w-2/3
-                    lg:w-3/5
+                    lg:w-3/4
                     xl:w-2/5">
 
-          <h1 class="h1-style">Nataël RENOLLET</h1>
-          <p>
+          <h1 class="my-4 font-thin text-title-color text-4xl
+                     sm:text-5xl
+                     lg:my-8 lg:text-6xl
+                     xl:my-12
+                     2xl:text-7xl">Nataël RENOLLET</h1>
+
+          <p class="my-4 text-lg
+                    sm:text-xl
+                    lg:my-8 lg:text-1xl
+                    xl:my-12">
             Je suis passionné par internet et le web, je suis actuellement
             apprenti développeur web et web mobile à Simplon au pôle formation
             UIMM de Charleville-Mézières. J'aime apprendre en continu et suis
@@ -96,7 +99,8 @@
             "Concepteur Développeur d'application".
           </p>
           <br>
-          <a href="#contact" class="bg-default p-2 rounded-full uppercase tracking-wider hover:font-semibold">Contactez-moi</a>
+          <a href="#contact"
+            class="bg-default py-2 px-4 rounded-full uppercase tracking-wider hover:font-semibold">Contactez-moi</a>
         </div>
         <div>
           <img src="assets/img/profil.png" alt="Photo de profil" class="max-h-64 
