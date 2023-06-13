@@ -65,6 +65,7 @@
 
 <body>
   <main class="text-text-color">
+    
     <!--HEADER SECTION-->
     <header class="h-full bg-header px-10 pt-16 
                    sm:pt-32
@@ -126,14 +127,14 @@
                    xl:pt-40">
 
       <div class="text-justify
-                    max-sm:text-center
-                    lg:w-3/4">
+                  max-sm:text-center
+                  lg:w-3/4">
 
         <h2 class="my-4 font-thin text-title-color text-4xl uppercase tracking-wider
                      sm:text-5xl
                      lg:my-8 lg:text-7xl lg:w-3/4
                      xl:my-12 
-                     2xl:text-8xl 2xl:w-2/4">Je créer avec passion !</h2>
+                     2xl:text-8xl">Je créer avec passion !</h2>
 
         <p class="my-4 text-lg font-light tracking-widest
                     sm:text-xl
@@ -146,10 +147,12 @@
           dans mon approche globale de la vie professionnelle !
         </p>
         <br>
-        <a href="#project" class="bg-default py-2 px-4 rounded-full uppercase tracking-wider 
+        <div class="w-full lg:text-right">
+          <a href="#project" class="bg-default py-2 px-4 rounded-full uppercase
                                     hover:font-semibold hover:bg-h-button
-                                    lg:tracking-widest lg:text-xl lg:right-px
-                                    xl:text-1xl py-4 px-6">Découvrez ce que j'ai fais</a>
+                                    lg:tracking-widest lg:text-xl lg:text-right
+                                    xl:text-1xl xl:py-4 xl:px-6">Découvrir</a>
+        </div>
 
       </div>
     </section>
