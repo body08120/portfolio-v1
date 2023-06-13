@@ -65,36 +65,36 @@
 
 <body>
   <main class="text-text-color">
-    
+
     <!--HEADER SECTION-->
     <header class="h-full bg-header px-10 pt-16 
-                   sm:pt-32
-                   lg:pt-24
-                   xl:pt-40">
+               sm:pt-32
+               lg:pt-24
+               xl:pt-40">
 
       <div class="flex 
-                  max-sm:flex-col-reverse
-                  max-sm:items-center
-                  lg:justify-between
-                  xl:justify-around">
+              max-sm:flex-col-reverse
+              max-sm:items-center
+              lg:justify-between
+              xl:justify-around">
 
         <div class="text-justify
-                    sm:w-2/3
-                    max-sm:text-center 
-                    md:w-2/3
-                    lg:w-3/4
-                    xl:w-2/5">
+                sm:w-2/3
+                max-sm:text-center 
+                md:w-2/3
+                lg:w-3/4
+                xl:w-2/5">
 
           <h1 class="my-4 font-thin text-title-color text-4xl tracking-widest
-                     sm:text-5xl
-                     lg:my-8 lg:text-6xl
-                     xl:my-12
-                     2xl:text-7xl">Nataël RENOLLET</h1>
+                 sm:text-5xl
+                 lg:my-8 lg:text-6xl
+                 xl:my-12
+                 2xl:text-7xl">Nataël RENOLLET</h1>
 
           <p class="my-4 text-lg font-light tracking-widest
-                    sm:text-xl
-                    lg:my-8 lg:text-1xl
-                    xl:my-12">
+                sm:text-xl
+                lg:my-8 lg:text-1xl
+                xl:my-12">
             Je suis passionné par internet et le web, je suis actuellement
             apprenti développeur web et web mobile à Simplon au pôle formation
             UIMM de Charleville-Mézières. J'aime apprendre en continu et suis
@@ -105,13 +105,13 @@
           </p>
           <br>
           <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase tracking-wider 
-                                    hover:font-semibold hover:bg-h-button
-                                    lg:tracking-widest lg:text-xl">Contactez-moi</a>
+                                hover:font-semibold hover:bg-h-button
+                                lg:tracking-widest lg:text-xl">Contactez-moi</a>
         </div>
         <div>
           <img src="assets/img/profil.png" alt="Photo de profil" class="max-h-64 
-                                                                        md:max-h-72
-                                                                        xl:max-h-96" />
+                                                                    md:max-h-72
+                                                                    xl:max-h-96" />
         </div>
       </div>
       <div class="mt-16">
@@ -122,24 +122,24 @@
 
     <!--PROJECTS BLOC-->
     <section class="bg-page px-10 pt-16 pt-16
-                   sm:pt-32
-                   lg:pt-24
-                   xl:pt-40">
+               sm:pt-32
+               lg:pt-24
+               xl:pt-40">
 
       <div class="text-justify
-                  max-sm:text-center
-                  lg:w-3/4">
+              max-sm:text-center
+              lg:w-3/4">
 
         <h2 class="my-4 font-thin text-title-color text-4xl uppercase tracking-wider
-                     sm:text-5xl
-                     lg:my-8 lg:text-7xl lg:w-3/4
-                     xl:my-12 
-                     2xl:text-8xl">Je créer avec passion !</h2>
+                 sm:text-5xl
+                 lg:my-8 lg:text-7xl lg:w-3/4
+                 xl:my-12 
+                 2xl:text-8xl">Je créer avec passion !</h2>
 
         <p class="my-4 text-lg font-light tracking-widest
-                    sm:text-xl
-                    lg:my-8 lg:text-1xl
-                    xl:my-12 lg:text-2xl">
+                sm:text-xl
+                lg:my-8 lg:text-1xl
+                xl:my-12 lg:text-2xl">
           La passion est l'essence même de ma pratique en tant que développeur.
           Chaque projet est une occasion de me surpasser, d'apprendre de nouvelles
           compétences et de relever de nouveaux défis. Ma passion pour la création
@@ -149,9 +149,9 @@
         <br>
         <div class="w-full lg:text-right">
           <a href="#project" class="bg-default py-2 px-4 rounded-full uppercase
-                                    hover:font-semibold hover:bg-h-button
-                                    lg:tracking-widest lg:text-xl lg:text-right
-                                    xl:text-1xl xl:py-4 xl:px-6">Découvrir</a>
+                                hover:font-semibold hover:bg-h-button
+                                lg:tracking-widest lg:text-xl lg:text-right
+                                xl:text-1xl xl:py-4 xl:px-6">Découvrir</a>
         </div>
 
       </div>
@@ -159,19 +159,67 @@
     <!--END PROJECTS BLOC-->
 
     <!--VITRINE SECTION-->
-    <section class="bg-page px-10 pt-16
-                  sm:pt-32
-                  lg:pt-24
-                  xl:pt-40">
+    <section class="bg-page px-10 py-16
+              sm:py-32
+              lg:py-24
+              xl:py-40">
+
+      <div class="flex justify-around py-4">
+
+        <!--     primera card -->
+        <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+          <div class="h-3/4 w-full">
+            <img class="w-full h-full object-cover rounded-t"
+              src="assets/img/wfbcorp.png"
+              alt="piña">
+          </div>
+          <div class="w-full h-1/4 p-3">
+            <a href="#" class=" hover:text-yellow-600 text-gray-700">
+              <span class="text-lg font-semibold uppercase tracking-wide ">Pineapple</span>
+            </a>
+            <p class="text-gray-600 text-sm leading-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <!--     segunda card -->
+        <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+          <div class="h-3/4 w-full">
+            <img class="w-full h-full object-cover rounded-t"
+              src="assets/img/wfbcorp.png"
+              alt="piña">
+          </div>
+          <div class="w-full h-1/4 p-3">
+            <a href="#" class=" hover:text-yellow-600 text-gray-700">
+              <span class="text-lg font-semibold uppercase tracking-wide ">Banana</span>
+            </a>
+            <p class="text-gray-600 text-sm leading-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <!--     tercera card -->
+        <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+          <div class="h-3/4 w-full">
+            <img class="w-full h-full object-cover rounded-t"
+              src="assets/img/wfbcorp.png"
+              alt="piña">
+          </div>
+          <div class="w-full h-1/4 p-3">
+            <a href="#" class=" hover:text-yellow-600 text-gray-700">
+              <span class="text-lg font-semibold uppercase tracking-wide ">Mango</span>
+            </a>
+            <p class="text-gray-600 text-sm leading-5 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+      </div>
+
 
     </section>
     <!--END VITRINE SECTION-->
 
     <!--COMPETENCES SECTION-->
     <section class="bg-page px-10 pt-16
-                  sm:pt-32
-                  lg:pt-24
-                  xl:pt-40">
+              sm:pt-32
+              lg:pt-24
+              xl:pt-40">
       <article>
         <a href="assets/img/cv.pdf" target="blank" class="hover:cursor-pointer">
           <img src="assets/img/cv.png" alt="Visualisation de mon CV" class="" />
@@ -235,9 +283,9 @@
 
     <!--CONTACT SECTION-->
     <section id="contact" class="bg-end px-10 pt-16
-                  sm:pt-32
-                  lg:pt-24
-                  xl:pt-40">
+              sm:pt-32
+              lg:pt-24
+              xl:pt-40">
       <form action="" method="">
         <h3>contactez-moi</h3>
         <input type="text" name="name" placeholder="Votre nom" />
