@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Renollet Nataël - Développeur web</title>
-  <!--description-->
+  <!--metadescription-->
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -15,9 +15,10 @@
       theme: {
         extend: {
           colors: {
-            "text-color": "#B8A28E",
-            "title-color": "#76614F",
-            "default": "#36422E"
+            "text-color": "#DED8CE",
+            "title-color": "#B8A28E",
+            "default": "#36422E",
+            "h-button": "#769960"
           }
         }
       }
@@ -65,28 +66,31 @@
 <body>
   <main class="text-text-color">
     <!--HEADER SECTION-->
-    <header class="bg-header px-10 pt-16 
+    <header class="h-full bg-header px-10 pt-16 
                    sm:pt-32
                    lg:pt-24
                    xl:pt-40">
 
       <div class="flex 
                   max-sm:flex-col-reverse
+                  max-sm:items-center
                   lg:justify-between
                   xl:justify-around">
 
-        <div class="max-sm:text-center 
-                    md:text-justify md:w-2/3
+        <div class="text-justify
+                    sm:w-2/3
+                    max-sm:text-center 
+                    md:w-2/3
                     lg:w-3/4
                     xl:w-2/5">
 
-          <h1 class="my-4 font-thin text-title-color text-4xl
+          <h1 class="my-4 font-thin text-title-color text-4xl tracking-widest
                      sm:text-5xl
                      lg:my-8 lg:text-6xl
                      xl:my-12
                      2xl:text-7xl">Nataël RENOLLET</h1>
 
-          <p class="my-4 text-lg
+          <p class="my-4 text-lg font-light tracking-widest
                     sm:text-xl
                     lg:my-8 lg:text-1xl
                     xl:my-12">
@@ -99,8 +103,9 @@
             "Concepteur Développeur d'application".
           </p>
           <br>
-          <a href="#contact"
-            class="bg-default py-2 px-4 rounded-full uppercase tracking-wider hover:font-semibold">Contactez-moi</a>
+          <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase tracking-wider 
+                                    hover:font-semibold hover:bg-h-button
+                                    lg:tracking-widest lg:text-xl">Contactez-moi</a>
         </div>
         <div>
           <img src="assets/img/profil.png" alt="Photo de profil" class="max-h-64 
@@ -108,32 +113,62 @@
                                                                         xl:max-h-96" />
         </div>
       </div>
-      <?php include('includes/socialicons.php'); ?>
+      <div class="mt-16">
+        <?php include('includes/socialicons.php'); ?>
+      </div>
     </header>
     <!--END HEADER SECTION-->
 
     <!--PROJECTS BLOC-->
-    <section class="bg-page px-10">
-      <h2>Je créer avec passion !</h2>
-      <p>
-        La passion est l'essence même de ma pratique en tant que développeur.
-        Chaque projet est une occasion de me surpasser, d'apprendre de nouvelles
-        compétences et de relever de nouveaux défis. Ma passion pour la création
-        ne se limite pas seulement au développement, mais se reflète également
-        dans mon approche globale de la vie professionnelle !
-      </p>
-      <a href="#project">Découvrez ce que j'ai fais</a>
+    <section class="bg-page px-10 pt-16 pt-16
+                   sm:pt-32
+                   lg:pt-24
+                   xl:pt-40">
+
+      <div class="text-justify
+                    max-sm:text-center
+                    lg:w-3/4">
+
+        <h2 class="my-4 font-thin text-title-color text-4xl uppercase tracking-wider
+                     sm:text-5xl
+                     lg:my-8 lg:text-7xl lg:w-3/4
+                     xl:my-12 
+                     2xl:text-8xl 2xl:w-2/4">Je créer avec passion !</h2>
+
+        <p class="my-4 text-lg font-light tracking-widest
+                    sm:text-xl
+                    lg:my-8 lg:text-1xl
+                    xl:my-12 lg:text-2xl">
+          La passion est l'essence même de ma pratique en tant que développeur.
+          Chaque projet est une occasion de me surpasser, d'apprendre de nouvelles
+          compétences et de relever de nouveaux défis. Ma passion pour la création
+          ne se limite pas seulement au développement, mais se reflète également
+          dans mon approche globale de la vie professionnelle !
+        </p>
+        <br>
+        <a href="#project" class="bg-default py-2 px-4 rounded-full uppercase tracking-wider 
+                                    hover:font-semibold hover:bg-h-button
+                                    lg:tracking-widest lg:text-xl lg:right-px
+                                    xl:text-1xl py-4 px-6">Découvrez ce que j'ai fais</a>
+
+      </div>
     </section>
     <!--END PROJECTS BLOC-->
 
     <!--VITRINE SECTION-->
-    <section class="bg-page px-10">
+    <section class="bg-page px-10 pt-16
+                  sm:pt-32
+                  lg:pt-24
+                  xl:pt-40">
 
     </section>
     <!--END VITRINE SECTION-->
 
     <!--COMPETENCES SECTION-->
-    <section class="bg-page px-10">
+    <section class="bg-page px-10 pt-16
+                  sm:pt-32
+                  lg:pt-24
+                  xl:pt-40">
       <article>
         <a href="assets/img/cv.pdf" target="blank" class="hover:cursor-pointer">
           <img src="assets/img/cv.png" alt="Visualisation de mon CV" class="" />
@@ -196,7 +231,10 @@
     <!--END --COMPETENCES SECTION-->
 
     <!--CONTACT SECTION-->
-    <section id="contact" class="bg-end px-10">
+    <section id="contact" class="bg-end px-10 pt-16
+                  sm:pt-32
+                  lg:pt-24
+                  xl:pt-40">
       <form action="" method="">
         <h3>contactez-moi</h3>
         <input type="text" name="name" placeholder="Votre nom" />
