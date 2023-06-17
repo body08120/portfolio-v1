@@ -121,20 +121,20 @@
     <!--END HEADER SECTION-->
 
     <!--PROJECTS BLOC-->
-    <section class="bg-page px-10 pt-16 pt-16
-               sm:pt-32
-               lg:pt-24
-               xl:pt-40">
+    <section class="bg-page px-10 pt-16
+               sm:py-16
+               lg:py-12
+               xl:py-20">
 
-      <div class="text-justify
+      <div class="mx-auto text-justify
               max-sm:text-center
               lg:w-3/4">
 
         <h2 class="my-4 font-thin text-title-color text-4xl uppercase tracking-wider
                  sm:text-5xl
                  lg:my-8 lg:text-7xl lg:w-3/4
-                 xl:my-12 
-                 2xl:text-8xl">Je créer avec passion !</h2>
+                 xl:my-12 xl:w-7/12
+                 2xl:text-8xl 2x:5/12">Je créer avec passion !</h2>
 
         <p class="my-4 text-lg font-light tracking-widest
                 sm:text-xl
