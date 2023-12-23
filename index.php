@@ -416,7 +416,7 @@
       <p class="text-center">
         Portfolio 2023 © RENOLLET Nataël
         <br>
-        Mentions Légales
+        <a href="">Mentions Légales</a>
       </p>
     </footer>
     <!--END FOOTER SECTION-->

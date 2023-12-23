@@ -1,6 +1,6 @@
 <div class="mx-auto py-10 flex justify-evenly 
             xl:w-3/6">
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/nata%C3%ABl-renollet-a3161b268/" target="_blank">
     <img src="assets/img/icons/linkedin.png" alt="Logo Linkedin"
       class="h-10 
             xl:h-16 xl:hover:border-2 xl:hover:border-primary xl:hover:rounded-full xl:hover:h-16" />
