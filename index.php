@@ -68,7 +68,7 @@
     <!--HEADER SECTION-->
     <header class="h-full bg-header px-10 pt-16 
                sm:pt-32
-               lg:pt-24 lg:h-screen
+               lg:pt-24
                xl:pt-40">
 
       <div class="flex 
@@ -95,17 +95,17 @@
                 lg:my-8 lg:text-1xl
                 xl:my-12">
             Je suis passionné par internet et le web, je suis actuellement
-            apprenti développeur web et web mobile à Simplon au pôle formation
+            diplômé développeur web et web mobile à Simplon au pôle formation
             UIMM de Charleville-Mézières. J'aime apprendre en continu et suis
             toujours à la recherche de nouvelles compétences à acquérir pour
-            améliorer mes capacités en programmation. Mon objectif est d'obtenir
-            mon diplôme et d'évoluer dans la même structure en tant que
-            "Concepteur Développeur d'application".
+            améliorer mes capacités en programmation et de desginer. Mon objectif est donc d'évoluer 
+            dans la même structure en tant que "Designer UI/UX" afin de combiner la puissance du développement avec l'esthétique du design.
           </p>
           <br>
-          <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase tracking-wider 
+          <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase
                                 hover:font-semibold hover:bg-h-button
-                                lg:tracking-widest lg:text-xl">Contactez-moi</a>
+                                lg:tracking-widest lg:text-xl lg:text-right
+                                xl:text-1xl xl:py-4 xl:px-6">Contactez-moi</a>
         </div>
         <div>
           <img src="assets/img/profil.png" alt="Photo de profil" class="max-h-64 
@@ -125,7 +125,7 @@
     <section class="bg-page">
 
       <!--####-->
-      <div class="mx-auto text-justify py-16
+      <div class="mx-auto text-justify px-10 py-16
               max-sm:text-center
               lg:w-3/4">
 
@@ -158,26 +158,24 @@
         <div class="container px-6 py-10 mx-auto">
           <h1 class="font-thin text-center text-title-color text-4xl uppercase tracking-wider
                lg:text-5xl
-               xl:text-6xl">Mon Portfolio</h1>
+               xl:text-6xl" id="project">Mon Portfolio</h1>
           <br>
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
             <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
               style="background-image:url('assets/img/wfbcorp.png')">
               <div
                 class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
-                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Best website
-                  collections</h2>
-                <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Website</p>
+                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">WFB Corp - Projet formation</h2>
+                <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Site internet</p>
               </div>
             </div>
 
             <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
-              style="background-image:url('assets/img/wfbcorp.png')">
+              style="background-image:url('assets/img/allosimplon.png')">
               <div
                 class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
-                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Block of Ui kit
-                  collections</h2>
-                <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Ui kit</p>
+                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">AlloSimplon - Projet formation</h2>
+                <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Site internet</p>
               </div>
             </div>
 
@@ -202,12 +200,12 @@
             </div>
           </div>
           <br><br>
-          <div class="flex justify-center">
+          <!-- <div class="flex justify-center">
             <a href="" class="bg-default py-2 px-4 mt-16 mx-auto rounded-full uppercase
                                 hover:font-semibold hover:bg-h-button
                                 lg:tracking-widest lg:text-xl lg:text-right
                                 xl:text-1xl xl:py-4 xl:px-6">Voir +</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
