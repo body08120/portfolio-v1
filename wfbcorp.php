@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Renollet Nataël - Développeur web</title>
+    <title>Renollet Nataël - WFB Corp</title>
     <meta name="description"
-        content="Explorez mes réalisations et découvrez mes projets dans le domaine du développement web et mobile. Parcourez cette vitrine de compétences variées et innovantes.">
+        content="Explorez mes réalisations et découvrez mes projets dans le domaine du développement web et mobile. Parcourez cette vitrine de qui explique la création du projet.">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -91,7 +91,7 @@
                         <div class="grid grid-col-4 grid-flow-col gap-8
                         max-xl:grid-rows-2 content-around">
                             <!--START --Head SECTION-->
-                            <div>
+                            <div class="hover:border-l-2">
                                 <h2 class="my-4 font-thin text-title-color text-3xl tracking-widest
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
@@ -113,7 +113,7 @@
                             <!--END --Head SECTION-->
 
                             <!--START --Head SECTION-->
-                            <div class="col-start-2">
+                            <div class="hover:border-l-2 col-start-2">
                                 <h2 class="my-4 font-thin text-title-color text-3xl tracking-widest
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
@@ -136,7 +136,7 @@
                             <!--END --Head SECTION-->
 
                             <!--START --Head SECTION-->
-                            <div class="col-start-3 max-xl:col-start-1 max-xl:row-start-2">
+                            <div class="hover:border-l-2 col-start-3 max-xl:col-start-1 max-xl:row-start-2">
                                 <h2 class="my-4 font-thin text-title-color text-3xl tracking-widest
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
@@ -158,7 +158,7 @@
                             <!--END --Head SECTION-->
 
                             <!--START --Head SECTION-->
-                            <div class="col-start-4 max-xl:col-start-2 max-xl:row-start-2">
+                            <div class="hover:border-l-2 col-start-4 max-xl:col-start-2 max-xl:row-start-2">
                                 <h2 class="my-4 font-thin text-title-color text-3xl tracking-widest
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
@@ -181,7 +181,14 @@
                         <!--################################-->
 
                     </div>
+
                     <br>
+
+                    <a href="index.php#project" class="bg-default py-2 px-4 rounded-full uppercase
+                            hover:font-semibold hover:bg-h-button
+                            lg:tracking-widest lg:text-xl lg:text-right
+                            xl:text-1xl xl:py-4 xl:px-6">Retour aux projets</a>
+
                     <a href="index.php#contact" class="bg-default py-2 px-4 rounded-full uppercase
                             hover:font-semibold hover:bg-h-button
                             lg:tracking-widest lg:text-xl lg:text-right

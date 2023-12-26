@@ -98,8 +98,9 @@
             diplômé développeur web et web mobile à Simplon au pôle formation
             UIMM de Charleville-Mézières. J'aime apprendre en continu et suis
             toujours à la recherche de nouvelles compétences à acquérir pour
-            améliorer mes capacités en programmation et de desginer. Mon objectif est donc d'évoluer 
-            dans la même structure en tant que "Designer UI/UX" afin de combiner la puissance du développement avec l'esthétique du design.
+            améliorer mes capacités en programmation et de desginer. Mon objectif est donc d'évoluer
+            dans la même structure en tant que "Designer UI/UX" afin de combiner la puissance du développement avec
+            l'esthétique du design.
           </p>
           <br>
           <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase
@@ -161,20 +162,24 @@
                xl:text-6xl" id="project">Mon Portfolio</h1>
           <br>
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
-            <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
-              style="background-image:url('assets/img/wfbcorp.png')">
-              <div
-                class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
-                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">WFB Corp - Projet formation</h2>
-                <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Site internet</p>
+            <a href="wfbcorp.php">
+              <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+                style="background-image:url('assets/img/wfbcorp.png')">
+                <div
+                  class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+                  <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">WFB Corp - Projet
+                    formation</h2>
+                  <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Site internet</p>
+                </div>
               </div>
-            </div>
+            </a>
 
             <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
               style="background-image:url('assets/img/allosimplon.png')">
               <div
                 class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
-                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">AlloSimplon - Projet formation</h2>
+                <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">AlloSimplon - Projet
+                  formation</h2>
                 <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Site internet</p>
               </div>
             </div>
