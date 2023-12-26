@@ -65,6 +65,8 @@
 
   <main class="text-text-color">
 
+    <?php include('includes/navbar.php'); ?>
+
     <!--HEADER SECTION-->
     <header class="h-full bg-header px-10 pt-16 
                sm:pt-32
@@ -156,10 +158,10 @@
         <br>
         <!--####-->
 
-        <div class="container px-6 py-10 mx-auto">
+        <div class="container px-6 py-10 mx-auto" id="project">
           <h1 class="font-thin text-center text-title-color text-4xl uppercase tracking-wider
                lg:text-5xl
-               xl:text-6xl" id="project">Mon Portfolio</h1>
+               xl:text-6xl" >Mon Portfolio</h1>
           <br>
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
             <a href="wfbcorp.php">
@@ -243,7 +245,7 @@
     <!--COMPETENCES SECTION-->
     <section class="bg-page px-10 py-4
                lg:py-12
-               xl:py-20">
+               xl:py-20" id="competences">
       <br><br>
       <article class="lg:flex flex-row-reverse justify-around">
 
@@ -423,9 +425,9 @@
         <br>
         <a href="">Mentions Légales</a>
       </p>
-    </footer>
+      </footer>
     <!--END FOOTER SECTION-->
-
+      
   </main>
 
   <!--___________________________-->
