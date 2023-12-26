@@ -161,7 +161,7 @@
         <div class="container px-6 py-10 mx-auto" id="project">
           <h1 class="font-thin text-center text-title-color text-4xl uppercase tracking-wider
                lg:text-5xl
-               xl:text-6xl" >Mon Portfolio</h1>
+               xl:text-6xl">Mon Portfolio</h1>
           <br>
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
             <a href="wfbcorp.php">
@@ -425,9 +425,13 @@
         <br>
         <a href="">Mentions Légales</a>
       </p>
-      </footer>
+    </footer>
     <!--END FOOTER SECTION-->
-      
+
+    <!-- Implement the Back Top Top Button -->
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+      class="hidden fixed z-50 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-default text-white text-3xl font-bold">&uarr;</button>
+
   </main>
 
   <!--___________________________-->
@@ -436,7 +440,23 @@
   <!--################################-->
 
   <!--SCRIPTS-->
+  <script>
+    var toTopButton = document.getElementById("to-top-button");
 
+    // When the user scrolls down 200px from the top of the document, show the button
+    window.onscroll = function () {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        toTopButton.classList.remove("hidden");
+      } else {
+        toTopButton.classList.add("hidden");
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
   <!--END SCRIPTS-->
 
   <!--################################-->
