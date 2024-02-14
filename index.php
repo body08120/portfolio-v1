@@ -6,11 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Renollet Nataël - Développeur web</title>
-  <meta name="description"
-    content="Je suis un développeur web junior passionné par la création d'expériences en ligne. 
-            Ma maîtrise du HTML, CSS et PHP me permet de concevoir des sites web esthétiques et fonctionnels.  
-            En constante évolution, j'ai récemment commencé à explorer le potentiel du JavaScript pour ajouter des fonctionnalités interactives à mes projets.
-            Grâce à ma formation au pôle UIMM, j'ai acquis des compétences solides et je suis prêt à relever de nouveaux défis dans le domaine du développement web.">
+  <meta name="description" content="Diplômé en Développement Web et Web Mobile, je suis passionné par la création de sites web et d'applications mobiles performants. Avec des compétences solides en HTML5, CSS3, JavaScript, PHP et MySQL, je m'apprête à combiner ces compétences avec une formation Bac +3 en Design UI/UX.  
+            Mon objectif est de fusionner mes compétences de développeur avec une solide compréhension du design pour créer des expériences utilisateur exceptionnelles. En constante recherche de nouvelles technologies, je suis déterminé à rester à la pointe de l'industrie.
+            Je suis toujours prêt à relever de nouveaux défis dans le domaine du développement web.">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -32,6 +30,7 @@
 
   <style>
     @layer utilities {
+
       .bg-header {
         background: linear-gradient(rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1)), url('assets/img/bg/background-header.png');
         background-size: cover;
@@ -68,20 +67,20 @@
     <?php include('includes/navbar.php'); ?>
 
     <!--HEADER SECTION-->
-    <header class="h-full bg-header px-10 pt-16 
+    <!-- <header class="h-full bg-header px-10 py-16 
                sm:pt-32
                lg:pt-24
-               xl:pt-40">
+               xl:pt-40"> -->
+    <header class="h-full bg-header px-10 py-16">
 
       <div class="flex 
-              max-sm:flex-col-reverse
-              max-sm:items-center
+              max-lg:items-center
+              max-lg:flex-col-reverse
               lg:justify-between
-              xl:justify-around">
+              xl:justify-around xl:items-center">
 
-        <div class="text-justify
-                sm:w-2/3
-                max-sm:text-center 
+        <div class="text-left 
+                sm:w-2/3 sm:px-4 
                 md:w-2/3
                 lg:w-3/4
                 xl:w-2/5">
@@ -90,19 +89,18 @@
                  sm:text-5xl
                  lg:my-8 lg:text-6xl
                  xl:my-12
-                 2xl:text-7xl">Nataël RENOLLET</h1>
+                 2xl:text-7xl">RENOLLET Nataël</h1>
 
           <p class="my-4 text-lg font-light tracking-widest
                 sm:text-xl
                 lg:my-8 lg:text-1xl
                 xl:my-12">
-            Je suis passionné par internet et le web, je suis actuellement
-            diplômé développeur web et web mobile à Simplon au pôle formation
-            UIMM de Charleville-Mézières. J'aime apprendre en continu et suis
-            toujours à la recherche de nouvelles compétences à acquérir pour
-            améliorer mes capacités en programmation et de desginer. Mon objectif est donc d'évoluer
-            dans la même structure en tant que "Designer UI/UX" afin de combiner la puissance du développement avec
-            l'esthétique du design.
+            Passionné par le web, je suis un développeur web/mobile diplômé de Simplon et étudiant en Design UI/UX à
+            Charleville-Mézières. <br>En constante quête d’apprentissage, je cherche à fusionner le développement web et
+            le
+            design pour créer des expériences utilisateur complètes et engageantes. Mon objectif n’est pas seulement de
+            devenir un Designer UI/UX, mais d’acquérir un ensemble complet de compétences web, me permettant de prendre
+            en charge tous les aspects d’un projet, de la conception à la mise en œuvre.
           </p>
           <br>
           <a href="#contact" class="bg-default py-2 px-4 rounded-full uppercase
@@ -128,14 +126,13 @@
     <section class="bg-page">
 
       <!--####-->
-      <div class="mx-auto text-justify px-10 py-16
-              max-sm:text-center
+      <div class="mx-auto text-left px-10 py-16
               lg:w-3/4">
 
         <h2 class="my-4 font-thin text-title-color text-4xl uppercase tracking-wider
                  sm:text-5xl
                  lg:my-8 lg:text-7xl lg:w-3/4
-                 xl:my-12 xl:w-5/12
+                 xl:my-12 xl:w-7/12
                  ">Je créer avec passion !</h2>
 
         <p class="my-4 text-lg font-light tracking-widest
@@ -147,22 +144,19 @@
           compétences et de relever de nouveaux défis. Ma passion pour la création
           ne se limite pas seulement au développement, mais se reflète également
           dans mon approche globale de la vie professionnelle !
+          <br><br>
+          <span class="underline text-title-color">Voyez par vous même :</span>
         </p>
-        <br>
-        <div class="w-full lg:text-right">
+        <!-- <div class="w-full lg:text-right">
           <a href="#project" class="bg-default py-2 px-4 rounded-full uppercase
                                 hover:font-semibold hover:bg-h-button
                                 lg:tracking-widest lg:text-xl lg:text-right
                                 xl:text-1xl xl:py-4 xl:px-6">Découvrir</a>
-        </div>
-        <br>
+        </div> -->
+
         <!--####-->
 
-        <div class="container px-6 py-10 mx-auto" id="project">
-          <h1 class="font-thin text-center text-title-color text-4xl uppercase tracking-wider
-               lg:text-5xl
-               xl:text-6xl">Mon Portfolio</h1>
-          <br>
+        <div class="container px-6 py-16 mx-auto" id="project">
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
             <a href="wfbcorp.php">
               <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
@@ -226,9 +220,9 @@
       <!-- Section: Design Block -->
       <section class="text-center">
         <div class="p-4 md:p-12">
-          <h2 class="my-12 text-5xl font-bold leading-tight tracking-tight">
+          <h2 class="my-12 text-2xl md:text-5xl font-bold leading-tight tracking-tight">
             Restons en contact <br />
-            <span class="text-title-color">Rejoignez-nous sur les réseaux sociaux</span>
+            <span class="text-title-color">Rejoignez-moi sur les réseaux sociaux</span>
           </h2>
           <?php include('includes/socialicons.php'); ?>
           <div class="flex flex-wrap justify-center space-x-2">
@@ -247,9 +241,9 @@
                lg:py-12
                xl:py-20" id="competences">
       <br><br>
-      <article class="lg:flex flex-row-reverse justify-around">
+      <article class="2xl:flex flex-row-reverse justify-around items-center">
 
-        <div class="lg:w-6/12">
+        <div class="2xl:w-6/12">
 
           <h2 class="font-thin text-title-color text-4xl uppercase tracking-wider
                lg:text-5xl
@@ -261,111 +255,95 @@
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">HTML5 & CSS3</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">Je maîtrise les fondamentaux du HTML5 et du CSS3, ce qui me permet de créer des sites web
+                structurés et esthétiquement plaisants. J’ai une bonne compréhension des concepts tels que le
+                positionnement, la mise en page responsive, et l’utilisation des balises sémantiques en HTML5.</p>
             </li>
 
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">JavaScript & Ajax</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai une solide connaissance de JavaScript, y compris ES6, et j’ai de l’expérience avec Ajax
+                pour créer des applications web interactives et dynamiques. Je suis capable de manipuler le DOM, de
+                gérer les événements et de faire des appels API asynchrones.</p>
             </li>
 
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">PHP</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai une bonne connaissance de PHP pour le développement côté serveur. Je suis capable de créer
+                des applications web dynamiques, de gérer les sessions et les cookies, et d’interagir avec les bases de
+                données.</p>
             </li>
 
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">Fondamentaux POO</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">Je comprends les principes de la programmation orientée objet, y compris l’encapsulation,
+                l’héritage et le polymorphisme. J’ai de l’expérience avec la conception et l’implémentation de classes
+                et d’objets en PHP et JavaScript.</p>
             </li>
 
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">Fondamentaux SQL</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai une bonne connaissance des bases de données relationnelles et du langage SQL. Je suis
+                capable de créer, de lire, de mettre à jour et de supprimer des données dans une base de données, et de
+                concevoir des schémas de base de données efficaces.</p>
             </li>
 
             <li class="py-4 px-4 text-justify">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">Tailwind CSS</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai de l’expérience avec Tailwind CSS pour créer des designs modernes et responsives. Je suis
+                capable d’utiliser les utilitaires de Tailwind pour construire rapidement des interfaces utilisateur
+                personnalisées. (Notamment mon portfolio !)</p>
             </li>
 
-            <li class="hidden py-4 px-4 text-justify xl:block">
+            <li class="py-4 px-4 text-justify xl:block">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">Boostrap</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai une solide connaissance de Bootstrap pour le développement rapide d’applications web
+                responsives. Je suis capable d’utiliser les composants de Bootstrap pour créer des interfaces
+                utilisateur cohérentes et attrayantes.</p>
             </li>
 
-            <li class="hidden py-4 px-4 text-justify xl:block">
+            <li class="py-4 px-4 text-justify xl:block">
               <h3 class="uppercase font-semibold tracking-wider text-title-color text-lg
                         md:text-xl
-                        lg:text-1xl">Perfectionniste</h3>
+                        lg:text-1xl">WordPress</h3>
               <p class="text-text-color text-sm leading-5 mt-1
             md:text-base
-            xl:text-lg">J'ai le sens du détail et j'aime que les choses soit au rendu final exactement comme elles
-                étaient
-                prévues
-                à
-                la base.</p>
+            xl:text-lg">J’ai de l’expérience avec WordPress pour la création et la gestion de sites web. Je suis
+                capable d’installer et de configurer WordPress, de gérer les thèmes et les plugins, et de créer du
+                contenu personnalisé.</p>
             </li>
 
           </ul>
         </div>
 
-        <div class="lg:w-5/12">
+        <div class="xl:w-6/12 2xl:w-5/12 mx-auto pt-16">
           <a href="assets/img/cv.pdf" target="blank" class="hover:cursor-pointer">
             <img src="assets/img/cv.png" alt="Visualisation de mon CV" />
           </a>
@@ -406,7 +384,7 @@
               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
               placeholder="Votre commentaire..."></textarea>
           </div>
-          <button type="submit" class="bg-title-color mx-auto py-2 px-4 my-16 rounded-full uppercase
+          <button type="submit" class="bg-title-color text-default mx-auto py-2 px-4 my-16 rounded-full uppercase
                                 hover:font-semibold hover:bg-h-button
                                 lg:tracking-widest lg:text-xl lg:text-right
                                 xl:text-1xl xl:py-4 xl:px-6">Envoyer votre message</button>
