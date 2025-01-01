@@ -63,7 +63,7 @@
     <main class="text-text-color">
 
         <!--HEADER SECTION-->
-        <header></header>
+        <?php include_once('includes/navbar.php'); ?>
         <!--END HEADER SECTION-->
 
         <!--################################-->
@@ -74,21 +74,24 @@
                 <h1 class="font-thin text-center text-title-color text-4xl uppercase tracking-wider
                lg:text-5xl
                xl:text-6xl">WFB Corp - Agence Web "projet fictif"</h1>
+
                 <br>
-                <img src="assets/img/wfbcorp.png" alt="WFB Corp" />
+                <a href="assets/img/wfbcorp.png"><img src="assets/img/wfbcorp.png" alt="WFB Corp" class="xl:w-3/5 xl:mx-auto"/></a>
 
                 <h1 class="my-4 font-thin text-title-color text-4xl tracking-widest
                  sm:text-5xl
-                 lg:my-8 lg:text-6xl
+                 md:my-8 
+                 lg:text-6xl
                  xl:my-12
                  2xl:text-7xl">Informations complémentaires</h1>
 
                 <div class="text-left">
 
-                    <div class="text-justify">
+                    <div class="">
 
                         <!--################################-->
-                        <div class="grid grid-col-4 grid-flow-col gap-8
+                        <div class="md:grid grid-col-4 grid-flow-col gap-8
+                        lg:gap-10
                         max-xl:grid-rows-2 content-around">
                             <!--START --Head SECTION-->
                             <div class="hover:border-l-2">
@@ -96,18 +99,20 @@
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
                  xl:my-12
-                 2xl:text-6xl">Découvrez l'Agence Web WFB Corp</h2>
+                 2xl:text-6xl">Découvrez l'Agence Web WFB</h2>
 
 
                                 <p class="my-4 text-lg font-light tracking-widest
                 sm:text-xl
                 lg:my-8 lg:text-1xl
                 xl:my-12">
-                                    Dans le cadre d'une formation collaborative, nous avons conçu l'Agence Web WFB Corp.
-                                    Ma
-                                    contribution s'est concentrée sur la création de la page de présentation, une
-                                    fenêtre
-                                    ouverte sur notre univers.
+                                    Dans le cadre d'un projet collaboratif en formation, nous avons conçu l'Agence Web (fictive) WFB
+                                    Corp.
+                                    Ma contribution s'est concentrée sur l'intégration de bibliothèque et la création de
+                                    la page de présentation, une
+                                    fenêtre ouverte sur l'univers de WFB, c'est une agence web concentrée sur plusieurs
+                                    pôles
+                                    le design, développement et SEO.
                                 </p>
                             </div>
                             <!--END --Head SECTION-->
@@ -118,7 +123,7 @@
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
                  xl:my-12
-                 2xl:text-6xl">Ce que vous y trouverez :</h2>
+                 2xl:text-6xl">Ce Que Vous Y Trouverez</h2>
 
 
                                 <p class="my-4 text-lg font-light tracking-widest
@@ -126,9 +131,8 @@
                 lg:my-8 lg:text-1xl
                 xl:my-12">
                                     Une interface soignée avec une barre de navigation fluide et un pied de page discret
-                                    pour une expérience de navigation agréable. Le point d'entrée ? Un header percutant
+                                    pour une expérience de navigation agréable intégrer grâce à FlowBite. Un header percutant
                                     qui attire le regard et vous invite à explorer.
-
                                     J'ai intégré la bibliothèque Révolution Sliders pour donner vie au contenu,
                                     enrichissant ainsi ma compréhension du JavaScript.
                                 </p>
@@ -141,13 +145,15 @@
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
                  xl:my-12
-                 2xl:text-6xl">Dynamisme et Contenu :</h2>
+                 2xl:text-6xl">Dynamisme Et Contenu</h2>
 
+                 <br class="hidden lg:block">
 
                                 <p class="my-4 text-lg font-light tracking-widest
                 sm:text-xl
                 lg:my-8 lg:text-1xl
-                xl:my-12">
+                xl:my-6
+                2xl:my-9">
                                     Les données proviennent d'une base solide et tout le backend a été élaboré en PHP
                                     8.2, la dernière version à ce moment-là. Vous découvrirez trois pôles essentiels -
                                     développement, design et référencement - accessibles via une simple flèche. À
@@ -163,17 +169,22 @@
                  sm:text-4xl
                  lg:my-8 lg:text-5xl
                  xl:my-12
-                 2xl:text-6xl">En Conclusion :</h2>
+                 2xl:text-6xl">En Conclusion</h2>
+                                <br class="hidden md:block">
 
 
                                 <p class="my-4 text-lg font-light tracking-widest
                 sm:text-xl
-                lg:my-8 lg:text-1xl
-                xl:my-12">
-                                    Cette page de présentation est le fruit de notre passion pour le développement web
-                                    collaboratif. Elle incarne notre engagement à créer des interfaces à la fois
-                                    fonctionnelles et esthétiques, tout en offrant une expérience immersive aux
-                                    visiteurs. Bienvenue dans l'univers captivant de l'Agence Web WFB Corp !
+                lg:my-5 lg:text-1xl
+                xl:my-6
+                2xl:my-9">
+                                    En somme, l’Agence Web (fictive) WFB Corp est une réalisation collaborative
+                                    passionnée. Ma
+                                    contribution a mis en valeur l’expertise de l’agence et a offert une expérience
+                                    utilisateur engageante et une interface réussi. Ce projet a été une occasion
+                                    d’apprentissage et de
+                                    croissance dans plusieurs domaines, et je suis fier de le présenter dans mon
+                                    portfolio.
                                 </p>
                             </div>
                             <!--END --Head SECTION-->
@@ -184,15 +195,18 @@
 
                     <br>
 
-                    <a href="index.php#project" class="bg-default py-2 px-4 rounded-full uppercase
+                    <div class="flex flex-col gap-8 text-center
+                                md:flex-row md:justify-center">
+                        <a href="index.php#project" class="bg-default py-2 px-4 rounded-full uppercase
                             hover:font-semibold hover:bg-h-button
                             lg:tracking-widest lg:text-xl lg:text-right
                             xl:text-1xl xl:py-4 xl:px-6">Retour aux projets</a>
 
-                    <a href="index.php#contact" class="bg-default py-2 px-4 rounded-full uppercase
+                        <a href="index.php#contact" class="bg-default py-2 px-4 rounded-full uppercase
                             hover:font-semibold hover:bg-h-button
                             lg:tracking-widest lg:text-xl lg:text-right
                             xl:text-1xl xl:py-4 xl:px-6">Contactez-moi</a>
+                    </div>
                 </div>
 
             </div>

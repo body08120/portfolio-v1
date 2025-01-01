@@ -67,10 +67,6 @@
     <?php include('includes/navbar.php'); ?>
 
     <!--HEADER SECTION-->
-    <!-- <header class="h-full bg-header px-10 py-16 
-               sm:pt-32
-               lg:pt-24
-               xl:pt-40"> -->
     <header class="h-full bg-header px-10 py-16">
 
       <div class="flex 
@@ -220,7 +216,7 @@
       <!-- Section: Design Block -->
       <section class="text-center">
         <div class="p-4 md:p-12">
-          <h2 class="my-12 text-2xl md:text-5xl font-bold leading-tight tracking-tight">
+          <h2 class="my-12 text-2xl md:text-5xl  leading-tight tracking-tight">
             Restons en contact <br />
             <span class="text-title-color">Rejoignez-moi sur les réseaux sociaux</span>
           </h2>
